@@ -80,6 +80,7 @@ export default function Calendar({
       defaultTimedEventDuration="02:00"
       slotMinTime="08:00"
       slotMaxTime="20:00"
+      allDaySlot={false}
       dateClick={(info) => onDateClick(info)}
       eventClick={(info) => onEventClick(info)}
       events={formattedEvents}
